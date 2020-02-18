@@ -1,0 +1,45 @@
+{
+  "name": "tiime2020-idpy-governance",
+  "description": "Presentation for TIIME 2020 - IdPy Governance",
+  "homepage": "https://c00kiemon5ter.github.io/presentation-tiime2020-idpy-governance",
+  "version": "0.0.1",
+  "scripts": {
+    "export": "decktape https://c00kiemon5ter.github.io/presentation-$npm_package_name presentation-$npm_package_name.pdf",
+    "test": "grunt test",
+    "start": "grunt serve",
+    "build": "grunt"
+  },
+  "author": {
+    "name": "Ivan Kanakarakis",
+    "email": "ivan@sunet.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://c00kiemon5ter/presentation-tiime2020-idpy-governance.git"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "dependencies": {
+    "decktape": "^2.9.3",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "grunt": "^1.0.4",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-qunit": "^3.1.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "grunt-zip": "~0.17.1",
+    "load-grunt-tasks": "^4.0.0",
+    "mustache": "^2.3.2",
+    "socket.io": "^2.2.0"
+  },
+  "license": "MIT"
+}
